@@ -1,0 +1,1 @@
+for i in range(1,int(input())+1):print(10 ** i, "以内,共有7的倍数", len([x for x in range(7,10**i+1,7)]), "个")
